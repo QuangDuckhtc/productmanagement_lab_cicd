@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build and Copy Jar
-    runs-on: self-hosted
+    runs-on: [self-hosted, Linux, X64]
 
     steps:
       - name: Checkout source
